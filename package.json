@@ -5,6 +5,12 @@
   "repository": "https://github.com/gminovska/github-battle.git",
   "author": "Gordana Minovska <ekogoca@gmail.com>",
   "license": "MIT",
+  "scripts":{
+    
+  },
+  "babel": {
+    "presets": ["env", "react"]
+  },
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
