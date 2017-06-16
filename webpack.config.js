@@ -1,4 +1,6 @@
-import path from 'path';
+const path = require('path'); 
+//this plugin allows generation of html file in the dist folder that has all the link and script elements generated and populated with the appropriate files
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './app/index.js',
@@ -18,5 +20,8 @@ module.exports = {
             }
 
         ]
-    }
+    },
+    plugins: [new HtmlWebpackPlugin({
+        template: 'app/index.html'
+    })]
 }

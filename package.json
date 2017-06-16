@@ -6,7 +6,7 @@
   "author": "Gordana Minovska <ekogoca@gmail.com>",
   "license": "MIT",
   "scripts":{
-    
+    "create": "webpack"
   },
   "babel": {
     "presets": ["env", "react"]
